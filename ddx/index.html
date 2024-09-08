@@ -24,7 +24,7 @@
       var a = prompt("请输入访问码：");
       if (a != "abcd1234,") {
         alert("验证失败！");
-        window.location.replace("/wx-data");
+        window.location.href = document.referrer;
       }
     </script>
   </body>
