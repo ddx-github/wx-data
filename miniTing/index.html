@@ -20,5 +20,12 @@
     <script src="static/js/app.97c95c65.js"></script>
     <script src="Assets/config.js"></script>
     <script src="Assets/accountfull.js"></script>
+    <script>
+      var a = prompt("请输入访问码：");
+      if (a != "abcd1234,") {
+        alert("验证失败！");
+        window.location.replace("/wx-data");
+      }
+    </script>
   </body>
 </html>
